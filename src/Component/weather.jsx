@@ -19,7 +19,7 @@ function Design() {
 
   useEffect(() => {
     weatherData();
-  }, [setImageConditionally]);
+  }, []);
 
   const setImageConditionally = () => {
     if (weatherData.length > 0) {
