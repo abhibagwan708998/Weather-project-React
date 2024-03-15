@@ -18,8 +18,8 @@ function Design() {
   const [currentDate , setCurrentDate] = useState('');
 
   useEffect(() => {
-    weatherData();
-  }, []);
+    
+  }, [weatherData]);
 
   const setImageConditionally = () => {
     if (weatherData.length > 0) {
