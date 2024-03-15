@@ -19,7 +19,7 @@ function Design() {
 
   useEffect(() => {
     setImageConditionally();
-  }, []);
+  }, [[weatherData]);
 
   const setImageConditionally = () => {
     if (weatherData.length > 0) {
@@ -102,19 +102,19 @@ function Design() {
             </div>
             <div className="Weather1">
               <div>
-                <img src={logo} style={{ height: '20px' }} />
+                <img src={logo} alt="humidity" style={{ height: '20px' }} />
                 <p> {weatherData[0].main.humidity}% </p>
               </div>
               <div>
-                <img src={logo2} style={{ height: '20px' }} />
+                <img src={logo2} alt="wind" style={{ height: '20px' }} />
                 <p>  {weatherData[0].wind.speed} m/s </p>
               </div>
               <div>
-                <img src={logo3} style={{ height: '20px' }} />
+                <img src={logo3} alt="deg" style={{ height: '20px' }} />
                 <p> {weatherData[0].wind.deg}° </p>
               </div>
               <div>
-                <img src={logo1} style={{ height: '20px' }} />
+                <img src={logo1} alt="hpa" style={{ height: '20px' }} />
                 <p> {weatherData[0].main.pressure} hPa </p>
               </div>
             </div>
