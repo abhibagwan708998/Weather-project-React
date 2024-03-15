@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+body{
+  background-image: url('image/nature-summer-weather-fluffy.jpg');
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.App{
+ 
+  margin-left: 12rem;
+}
+.cls{
+  font-size: 60px;
+  margin-left: 30px;
+
+}
+.cls1{
+  font-size: 18px;
+  margin-left: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Weather1{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 40px;
+  margin-left: 40px;
+
+}
+.min-max{
+  display: flex;
+  gap: 50px;
+  margin-left: 30px;
+}
+.main{
+  margin-top: 10px;
+}
+.header{
+  display: flex;
+  text-align: center;
+  gap: 30rem;
+}
+.a{
+  font-size: 20px;
+  font-weight: bold;
+}
+.ab{
+  font-size: 20px;
+  font-weight: 300;
   color: white;
 }
+.sun{
+  float: right;
+  width: 140px;
+}
+.part{
+  
+  padding-top: 1rem;
+  width: 40rem;
+  line-height: 0%;
+  border: 3px solid white;
+  border-radius: 22px; 
+  background-color:  rgb(204, 219, 232) ;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset;
+}
+.btn{
+  border: 2px solid lightblue;
+}
+.part1{
+  display: flex;
+  width: 40rem;
+  padding-top: 3rem;
+  line-height: 20%;
+  border: 3px solid white;
+  border-radius: 22px; 
+  background-color:rgb(204, 219, 232) ;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.DAy{
+  font-size: 30px;
+  margin-left: 30px;
+  font-family: math;
+}
+.City{
+  display: flex;
+  gap:10px;
+  font-size: 20px;
+  margin-left: 30px;
 
-.App-link {
-  color: #61dafb;
+}
+.Citys{
+  display: flex;
+  gap:10px;
+  font-size: 20px;
+  margin-left: 50px;
+}
+.con-img{
+  width: 20px;
+  height: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.con-img1{
+  width: 80px;
+  height: 80px;
+}
+.search-container{
+  text-align: end;
+}
+
+.one{
+  width: 20px;
 }
